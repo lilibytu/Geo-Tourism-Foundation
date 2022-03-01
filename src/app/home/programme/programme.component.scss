@@ -1,0 +1,286 @@
+.project-area {
+    background-color: #1c1f21;
+    padding-top: 6.5rem;
+  }
+
+  .section-header {
+    margin-bottom: 50px;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .section-header .first-headline {
+    position: relative;
+    padding: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #bababa;
+    letter-spacing: 0;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+  }
+  .section-header .second-headline {
+    font-size: 34px;
+    position: relative;
+    padding: 0;
+    color: #f5f5f5;
+    margin-bottom: 10px;
+    font-weight: 700;
+    line-height: 1.1;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+  }
+
+
+//   }
+
+//   .trip-card .animated {
+//     transform: scaleX(1);
+//   }
+
+//   .trip-card .animate {
+//     transform-origin: left center;
+//     transition: all .6s cubic-bezier(.43, .04, .32, .97);
+//   }
+
+//   .animated .card-image {
+//     opacity: 1;
+//   }
+
+//   .trip-card .card-image {
+//     background-size: cover;
+//     transform-origin: bottom center;
+//     transition: all .6s ease;
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     bottom: 0;
+//     width: 100%;
+//     height: 100%;
+//     margin: 0;
+//   }
+
+//   .trip-card .card-image:hover {
+//     transform: scale(1.05);
+//     -webkit-transform: scale(1.05);
+//     -ms-transform: scale(1.05);
+//     transition: 1s;
+//     backface-visibility: hidden;
+//   }
+
+//   .trip-card .card-content {
+//     padding: 60px 25px 30px;
+//     background: linear-gradient(transparent, rgba(0, 0, 0, .85));
+//     position: absolute;
+//     left: 0;
+//     bottom: 0;
+//     right: 0;
+//     font-size: 14px;
+//     transition: all .3s ease;
+//   }
+
+//   .trip-card .card-content:hover {
+//     transform: scale(1.05);
+//     -webkit-transform: scale(1.05);
+//     -ms-transform: scale(1.05);
+//     transition: 1s;
+//   }
+
+//   .trip-card .card-content h4 {
+//     font-family: nunito sans, sans-serif;
+//     font-size: 20px;
+//     text-transform: uppercase;
+//     font-weight: 800;
+//     cursor: pointer;
+//     transition: all .3s ease;
+//   }
+
+//   .trip-card .card-content .card-visible .explore-style {
+//     font-family: nunito sans, sans-serif;
+//     font-size: 20px;
+//     text-transform: uppercase;
+//     font-weight: 800;
+//     border: #ffffff solid 2px;
+//     border-radius: 10px;
+//     color: #f2f2f2;
+//     background-color: transparent;
+//     transition: all .3s ease;
+//   }
+
+  .cursor {
+    cursor: pointer;
+  }
+
+  .cg__symbol {
+    margin-top: 0;
+    margin-bottom: 10px;
+    display: block;
+  }
+  .cg__symbol span {
+    display: inline-block;
+    width: 50%;
+    height: 2px;
+    background-color: #bababa;
+  }
+//   .card-content .card-visible i{
+//     font-size: 14px;
+//     font-weight: 600;
+//     color:#FFFFFF;
+//   }
+
+//   /*what i do*/
+//   .services .icon{
+//     text-align: left;
+//   }
+//   .services .icon i {
+//     color: #0286EA;
+//     font-size: 60px;
+//     line-height: 1;
+//     transition: 0.5s;
+//     margin-top: 30px;
+//     margin-bottom: 15px;
+//   }
+
+//   .services .title {
+//     margin-left: 0;
+//     margin-bottom: 15px;
+//     text-align: left;
+//     color: #0a0a0a;
+//     font-size: 16px;
+//     line-height: 30px;
+//     font-weight: 700;
+//   }
+
+//   .services .title a {
+//     color: #0a0a0a;
+//     font-size: 16px;
+//     line-height: 30px;
+//     font-weight: 700;
+//   }
+
+//   .services .box:hover .title a {
+//     color: #0286EA;
+//   }
+
+//   .services .description {
+//     font-size: 14px;
+//     margin-left: 0;
+//     margin-bottom: 15PX;
+//     text-align: left;
+//     color: #535353;
+//     line-height: 28px;
+//     font-family:  Open Sans, Helvetica, Arial, sans-serif;
+//   }
+
+//   @media(max-width: 991px) {
+//     .box {
+//       margin-top: 0;
+//       margin-bottom: 0;
+//     }
+//     .services .icon {
+//       text-align: center;
+//     }
+//     .services .icon i{
+//       margin-top: 0;
+//       margin-bottom: 0;
+//       text-align: center;
+//     }
+//     .services .title {
+//     text-align: center;
+//     }
+//   }
+
+
+
+  .flip-card {
+    background-color: transparent;
+    width: 100%;
+    perspective: 1000px;
+    height: 450px;
+  }
+.flip-card img{
+    width: 100%;
+    height: 100%;
+  }
+  .flip-card .programme{
+    padding: 20% 30px;
+  }
+.flip-card .programme .title{
+  line-height: 1.4;
+  color:#c2c4c5;
+  font: normal 400 22px/ 22px
+ "Roboto", Helvetica, Arial, Verdana, sans-serif;
+  letter-spacing: 0em;
+}
+
+.flip-card .programme .contents{
+  line-height: 1.4;
+  color:#c2c4c5;
+  letter-spacing: 0em;
+  text-align: justify;
+  font: normal 400 18px/ 22px
+ "Roboto", Helvetica, Arial, Verdana, sans-serif;
+}
+
+
+//   .flip-card-inner {
+//     position: relative;
+//     width: 100%;
+//     height: 100%;
+//     text-align: center;
+//     transition: transform 0.6s;
+//     transform-style: preserve-3d;
+//     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+//   }
+
+//   .flip-card:hover .flip-card-inner {
+//     transform: rotateX(180deg);
+//   }
+
+//   .flip-card-front, .flip-card-back {
+//     position: absolute;
+//     width: 100%;
+//     height: 100%;
+//     -webkit-backface-visibility: hidden;
+//     backface-visibility: hidden;
+//   }
+
+//   .flip-card-front {
+//     background-color: #bbb;
+//     color: black;
+//   }
+
+//   .flip-card-back {
+//     background-color: #0d2034;
+//     color: white;
+//     transform: rotateX(180deg);
+//   }
+//   .flip-card-back .service-details{
+//     margin-top: 60px;
+//     padding: 5px;
+//   }
+//   .flip-card-back .service-details .service-headings{
+//     font-family: "Open Sans";
+//     color: #29e3a3;
+//     font-size: 20px;
+//     font-weight: 600;
+//   }
+//   .flip-card-front .card-content {
+//     padding: 60px 25px 30px;
+//     background: linear-gradient(transparent, rgba(0, 0, 0, .85));
+//     position: absolute;
+//     left: 0;
+//     bottom: 0;
+//     right: 0;
+//     font-size: 14px;
+//     transition: all .3s ease;
+//   }
+//   .flip-card-front .card-content h4 {
+//     font-family: nunito sans, sans-serif;
+//     font-size: 20px;
+//     text-transform: uppercase;
+//     font-weight: 800;
+//     // border-radius: 10px;
+//     color: #f2f2f2;
+//     background-color: transparent;
+//     transition: all .3s ease;
+//   }

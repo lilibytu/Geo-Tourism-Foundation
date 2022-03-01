@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'smafreight';
+
+  // tslint:disable-next-line:use-lifecycle-interface
+  ngOnInit(): void {
+  }
 }

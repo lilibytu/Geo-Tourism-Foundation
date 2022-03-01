@@ -1,0 +1,27 @@
+<section class="team-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-header">
+            <h3 class="second-headline">Our Impacts</h3>
+            <span class="cg__symbol">
+             <span></span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="container-fluid justify-content-center" style="background-color: white;">
+          <owl-carousel-o>
+            <ng-container *ngFor="let item of partners">
+              <ng-template carouselSlide>
+                <div class="slider p-0">
+                  <img [src]="item.src" class="image" [alt]="item.alt"  style="height: 150px; width: 150px;cursor: pointer">
+                </div>
+              </ng-template>
+            </ng-container>
+          </owl-carousel-o>
+        </div>
+      </div>
+      </div>
+  </section>

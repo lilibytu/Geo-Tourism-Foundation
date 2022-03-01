@@ -1,0 +1,135 @@
+.project-area {
+  background-color: #ffffff;
+  padding-top: 6.5rem;
+}
+
+.section-header {
+  margin-bottom: 50px;
+  text-align: center;
+  margin-top: 30px;
+}
+.my-container{
+  padding-top: 50px;
+  padding-bottom: 4rem;
+}
+.section-header .first-headline {
+  position: relative;
+  padding: 0;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #bababa;
+  letter-spacing: 0;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+}
+.section-header .second-headline {
+  font-size: 34px;
+  position: relative;
+  padding: 0;
+  color: #0a0a0a;
+  margin-bottom: 10px;
+  font-weight: 700;
+  line-height: 1.1;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+}
+
+// icons
+.single-social {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  width: 110px;
+  height: 110px;
+  line-height: 32px;
+  text-align: center;
+  z-index: 1;
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+  margin-right: 15px;
+  margin-top: 5px;
+  left: 40%;
+  margin-bottom: 10px;
+}
+.single-social.instagram {
+  background: #009900;
+}
+.single-social:hover .instagram {
+  background: #0093da;
+}
+.single-social i{
+  font-size: 62px;
+  padding: 20px;
+}
+
+
+/*what i do*/
+.services .icon{
+  text-align: center;
+}
+.services .icon i {
+  color: #009900;
+  font-size: 100px;
+  line-height: 1;
+  transition: 0.5s;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.services .title {
+  margin-left: 0;
+  margin-bottom: 15px;
+  text-align: center;
+  line-height: 1.4;
+  font-weight: 500;
+  letter-spacing: 0em;
+  font-family: 'Merriweather', serif;
+}
+
+.services .title a {
+  color: #212121;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.services .box:hover .title a {
+  color: #009900;
+}
+
+.services .description {
+  font-size: 15px;
+  margin-left: 0;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #535353;
+  line-height: 28px;
+}
+
+@media(max-width: 991px) {
+  .project-area {
+    padding-top: 6rem;
+  }
+
+  .my-container{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .single-social {
+    left: 30%;
+  }
+  .box {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .services .icon {
+    text-align: center;
+  }
+  .services .icon i{
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .services .title {
+  text-align: center;
+  }
+}
+
